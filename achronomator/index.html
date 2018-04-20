@@ -1,1 +1,26 @@
-<script src="https://rawgit.com/Intermernet/achronomator/master/achronomator.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Achronomator</title>
+  <style> 
+    @-webkit-keyframes typing { from { width: 0; } }
+    @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+    h1 { 
+        font: bold 300% Consolas, Monaco, monospace;
+        border-right: .1em solid black;
+        width: 16.5em; 
+        width: 21ch;
+        margin: 2em 1em;
+        white-space: nowrap;
+        overflow: hidden;
+        -webkit-animation: typing 2s steps(21, end),
+                blink-caret .5s step-end infinite alternate;
+    }
+  </style>
+</head>
+<body>
+  <h1><script src="https://rawgit.com/Intermernet/achronomator/master/achronomator.js"></script></h1>  
+</body>
+</html>
